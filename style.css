@@ -1,3 +1,25 @@
+.header{
+    display: flex;
+    min-width: 900px;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    min-width: 900px;
+    justify-content: center;
+}
+.nav__ul{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 400px;
+}
+.nav__item{
+    list-style: none;
+    font-size: 1.5em;
+}
+h1{
+    font-size: 3em;
+}
 .content{
     min-width: 900px ;
     display: flex;
