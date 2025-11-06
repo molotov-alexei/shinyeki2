@@ -1,0 +1,42 @@
+.content{
+    min-width: 900px ;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 500px;
+}
+.content__div{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    border: 1px solid #000;
+    min-width: 300px;
+    min-height: 400px;
+    border-radius: 10px;
+    padding-top:25px ;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 3px #000;
+}
+.--legion{
+    background-image: url(imagenes/esatandartes-legion.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 30px;
+}
+.--muralla{
+    background-image: url(imagenes/estandartes-guarnicion.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 30px;
+}
+.--policia{
+    background-image: url(imagenes/estandartes-policia.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 30px;
+}
