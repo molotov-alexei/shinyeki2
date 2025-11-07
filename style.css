@@ -1,11 +1,22 @@
+body{
+    background-image: url(imagenes/backgrounbody._SX1080_FMjpg_.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    height: 100vh;
+    padding: 0 ;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+}
 .header{
     display: flex;
-    min-width: 900px;
+    width: 100%;
     justify-content: center;
 }
 .nav{
     display: flex;
-    min-width: 900px;
+    width: 100%;
     justify-content: center;
 }
 .nav__ul{
@@ -21,8 +32,9 @@ h1{
     font-size: 3em;
 }
 .content{
-    min-width: 900px ;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -47,6 +59,12 @@ h1{
     background-position: center;
     color: #fff;
     font-size: 30px;
+    transition: .7s;
+    
+}
+.--legion:hover{
+    background-image: url(imagenes/levi.jpg);
+    transform: scale(1.1);
 }
 .--muralla{
     background-image: url(imagenes/estandartes-guarnicion.jpg);
@@ -61,4 +79,25 @@ h1{
     background-position: center;
     color: #fff;
     font-size: 30px;
+}
+.footer{
+    width: 100%;
+    height: 160px;
+    background-image: url(imagenes/singeki-1.jpg);
+    background-size: contain;
+    margin: 0;
+    margin-top: auto;
+    border: 1px solid #000;    
+}
+@media screen and (max-width:700px) {
+    body{
+    background-color: #000;
+    background-image: none;
+    color: #fff;
+    }    
+    footer{
+        display: none;
+    }
+    .main{   
+    }
 }
